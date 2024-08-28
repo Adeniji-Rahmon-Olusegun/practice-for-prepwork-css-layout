@@ -1,0 +1,71 @@
+body {
+    font-size: large;
+    color: black;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    width: 450px;
+    height: 500px;
+    margin-top: 40px;
+    border-radius: 4px;
+    background-color: rgb(225, 225, 235);
+}
+
+legend {
+    display: block;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 100px;
+    background-color: rgb(211, 225, 211);
+}
+
+.form-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    margin: 0 90px;
+}
+
+#firstName, #lastName, #email {
+    display: block;
+}
+
+
+.role-date {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.radios {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+}
+
+.space {
+    margin: 5px 0;
+}
+
+.check-b {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#submit {
+    display: block;
+    margin-left: 80px;
+}
+
